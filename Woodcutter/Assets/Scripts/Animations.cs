@@ -5,6 +5,7 @@ public class Animations
     public enum Player 
     {
         Walking,
-        Hit
+        Hit,
+        BaseAttack
     }
 }

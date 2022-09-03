@@ -18,23 +18,18 @@ public class Player : MonoBehaviour
         _animator = GetComponent<Animator>();
     }
 
-    private void Start()
-    {
+    private void Start() =>
         SetHoldingItem(_holdingItem);
-    }
+    
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            _animator.SetTrigger("BaseAttack");
-        }        
+        if (Input.GetKeyDown(KeyCode.E))        
+            _animator.SetTrigger(Animations.Player.BaseAttack.ToString());             
     }
 
-    private void FixedUpdate()
-    {
-        Move();
-    }
+    private void FixedUpdate() =>    
+        Move();    
 
     public void SetHoldingItem(Item item)
     {

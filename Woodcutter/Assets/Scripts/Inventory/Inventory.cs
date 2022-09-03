@@ -5,7 +5,6 @@ using System;
 public class Inventory
 {
     public event Action<Item> OnSelectedItemChanged;
-
     public List<InventoryCell> Cells { get; }
     private InventoryContainer _container;
     private InventoryCell _selectedCell;

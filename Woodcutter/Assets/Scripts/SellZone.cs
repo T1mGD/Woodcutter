@@ -25,7 +25,7 @@ public class SellZone : MonoBehaviour
                     if (sellableItem.Data.ID == item.Data.ID)
                     {
                         _coinBank.Add(sellableItem.Price);
-                        Destroy(collision.gameObject, 0.2f);
+                        Destroy(collision.gameObject);
                     }
         }
     }
