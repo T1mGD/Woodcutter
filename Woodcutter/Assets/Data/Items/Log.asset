@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b77e0fe407c448438c527dd65d7c9a0, type: 3}
+  m_Name: Log
+  m_EditorClassIdentifier: 
+  _ID: 2
+  _name: "\u0411\u0440\u0430\u045E\u043D\u043E"
+  _sprite: {fileID: 3765693073087973977, guid: 3b6543e3c6917474faf86a4e08b6753f, type: 3}
+  "_stack\u0421apacity": 3
